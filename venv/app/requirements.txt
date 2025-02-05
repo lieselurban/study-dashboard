@@ -1,0 +1,7 @@
+pandas
+streamlit
+openpyxl
+matplotlib==3.7.3
+calplot
+numpy==1.26.4
+july==0.1.3

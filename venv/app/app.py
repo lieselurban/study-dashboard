@@ -13,7 +13,8 @@ import datetime
 import math
 
 
-# Display the chart in Streamlit
+
+#------- Title -------#
 st.set_page_config(layout="wide") 
 # st.title('Jordan\'s CFA Level 2 Dashboard')
 st.markdown("<h1 style='text-align: center;'>Jordan\'s CFA Level 2 Dashboard</h1>", unsafe_allow_html=True)
@@ -49,7 +50,7 @@ with col1:
     st.pyplot(fig)
 
 
-#------- Visualization 1: Donut Chart -------#
+#------- Visualization 2: Donut Chart and Visualization Card -------#
 with col2: 
     # Find the maximum "Total Hours"
     # max_hours = final_df['Total hours'].max()

@@ -11,5 +11,3 @@ trimmed_df["Date"] = trimmed_df["Date"].ffill()
 
 # create final_df name for reference. If cleansing steps are added in the future, can just change the final_df reference
 final_df = trimmed_df
-
-print(float(final_df.groupby('Date').agg({"Total hours": "sum"}).max()))
